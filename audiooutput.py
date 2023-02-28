@@ -1,8 +1,9 @@
 import os
 import boto3
+import config as cnf
 
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIA6O32WPVH5RKA7TGP'
-os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
+os.environ['AWS_ACCESS_KEY_ID'] = cnf.aws_access_key_id
+os.environ['AWS_SECRET_ACCESS_KEY'] = cnf.aws_secret_key
 voice_id = 'Arthur'
 # Create a client for the Amazon Polly service
 polly = boto3.client('polly', region_name='us-east-1')

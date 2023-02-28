@@ -6,7 +6,7 @@ import config as cnf
 playlistLeo = "spotify:playlist:5Y5kiYaST9xJvOBi67kfbC"
 
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cnf.client_id,client_secret=cnf.client_secret,redirect_uri="http://127.0.0.1:9090",scope="user-library-read playlist-read-private user-modify-playback-state user-read-playback-state"))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cnf.spotify_client_id,client_secret=cnf.spotify_client_secret,redirect_uri="http://127.0.0.1:9090",scope="user-library-read playlist-read-private user-modify-playback-state user-read-playback-state"))
 
 
 

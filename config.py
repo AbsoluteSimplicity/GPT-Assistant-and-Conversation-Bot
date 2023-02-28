@@ -1,10 +1,12 @@
 api = "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"
 
 #spotify bot info
-client_id = "dd6c0415a2fc43778cdccf91a82de87a"
-client_secret="5c46b6d01fb64ad7a41209d9f025a292"
+spotify_client_id = "dd6c0415a2fc43778cdccf91a82de87a"
+spotify_client_secret="5c46b6d01fb64ad7a41209d9f025a292"
 
-
+#aws tts info
+aws_access_key_id = 'AKIA6O32WPVH5RKA7TGP'
+aws_secret_key = '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'
 
 good_file = open("goodpersonality.txt", "r")
 good = good_file.read()
