@@ -1,11 +1,12 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import time
+import config as cnf
 
 playlistLeo = "spotify:playlist:5Y5kiYaST9xJvOBi67kfbC"
 
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="dd6c0415a2fc43778cdccf91a82de87a",client_secret="5c46b6d01fb64ad7a41209d9f025a292",redirect_uri="http://127.0.0.1:9090",scope="user-library-read playlist-read-private user-modify-playback-state user-read-playback-state"))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cnf.client_id,client_secret=cnf.client_secret,redirect_uri="http://127.0.0.1:9090",scope="user-library-read playlist-read-private user-modify-playback-state user-read-playback-state"))
 
 
 
