@@ -40,3 +40,15 @@ User 21:34 : hello
 AI 21:34 : Hi there! How can I help you today?
 User 21:34 : nothing goodbye
 AI 21:34 : Alright, if you need anything else please let me know. *end of conversation*. Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 11:55 : can you play a random playlist please
+AI 11:55 : Sure! I'll play a random playlist for you. *music random*
+User 11:55 : *they mutter too quietly to hear*
+AI 11:55 : Sorry, I didn't catch that. Could you please repeat it?
+User 11:55 : *they mutter too quietly to hear*
+AI 11:55 : Sorry, I didn't catch that. Could you please repeat it?
+User 11:55 : stop the music
+AI 11:55 : Sure thing! *music stop*
+User 11:55 : thank you goodbye
+AI 11:55 : You're welcome. *end of conversation* Goodbye!

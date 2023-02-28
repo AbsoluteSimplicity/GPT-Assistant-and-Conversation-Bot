@@ -2,12 +2,10 @@ import os
 import time
 import time
 from datetime import datetime
-
 import openai
 import speech_recognition as sr
 from gtts import gTTS
 from playsound import playsound
-
 import audiooutput as ao
 import config as cnf
 import gui
@@ -16,7 +14,6 @@ import parseResponse as pr
 
 openai.api_key = cnf.api
 r = sr.Recognizer()
-r.dynamic_energy_threshold = False
 
 aiType = gui.startup_gui()
 

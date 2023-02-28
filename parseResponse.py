@@ -11,6 +11,8 @@ def special_instructions(response):
         webbrowser.get(chrome_path).open("google.com")
     if "*music leo*" in response.lower():
         ms.playPlaylist(ms.playlistLeo)
+    if "*music random*" in response.lower():
+        ms.playPlaylist(ms.randomPlaylist)
     if "*music stop*" in response.lower():
         ms.stopMusic()
     if "*time*" in response.lower():
@@ -22,6 +24,8 @@ def clear_substrings(response):
     newResponse = newResponse.replace("*music leo*", "")
     newResponse = newResponse.replace("*Music Leo*", "")
     newResponse = newResponse.replace("*music Leo*", "")
+    newResponse = newResponse.replace("*Music Random*", "")
+    newResponse = newResponse.replace("*music random*", "")
     newResponse = newResponse.replace("*music stop*", "")
     newResponse = newResponse.replace("*Music Stop*", "")
     newResponse = newResponse.replace("*time*", "")

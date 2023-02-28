@@ -2,8 +2,12 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import time
 import config as cnf
+import random
+
 
 playlistLeo = "spotify:playlist:5Y5kiYaST9xJvOBi67kfbC"
+allPlaylists = ["spotify:playlist:5Y5kiYaST9xJvOBi67kfbC", "spotify:playlist:37i9dQZEVXcF4seGHughlX", "spotify:playlist:37i9dQZF1E37VfQF5r5tQI", "spotify:playlist:37i9dQZF1E38mtL7U2XKKf", "spotify:playlist:37i9dQZF1E35vp7Lzvxe8f", "spotify:playlist:37i9dQZF1E37tEEOsCxRn8", "spotify:playlist:37i9dQZF1E36eJNC5Kb29O", "spotify:playlist:37i9dQZF1E38iu0h4bBHTE"]
+randomPlaylist = random.choice(allPlaylists)
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=cnf.spotify_client_id,client_secret=cnf.spotify_client_secret,redirect_uri="http://127.0.0.1:9090",scope="user-library-read playlist-read-private user-modify-playback-state user-read-playback-state"))
