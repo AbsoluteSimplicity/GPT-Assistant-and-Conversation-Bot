@@ -13,7 +13,6 @@ import config as cnf
 import gui
 import music as ms
 import parseResponse as pr
-import saveprompts as sp
 
 openai.api_key = cnf.api
 r = sr.Recognizer()
@@ -21,7 +20,6 @@ r = sr.Recognizer()
 aiType = gui.startup_gui()
 
 now = datetime.now()
-
 current_time = now.strftime("%H:%M")
 
 '''
@@ -51,14 +49,6 @@ else:
     print("Invalid input type, killing program.")
     time.sleep(2)
     exit()
-
-
-
-
-
-
-
-
 
 
 def generate_response(prompt, history=[]):
@@ -114,9 +104,11 @@ while True:
         prompt = backstory + f"Human: {user_input}\nAI:"
     elif aiType == 2:
         prompt = backstory + f"Human: {user_input}\nHuman 2:"
+    
     response = generate_response(prompt, history)
     history.append(prompt)
     history.append(response)
+    
     with open("history.txt", "a") as file:
         # Write the string to a new line in the file
         file.write("User " + current_time + " : " + user_input + "\n")
