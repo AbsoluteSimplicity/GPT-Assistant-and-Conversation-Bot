@@ -1,6 +1,7 @@
 import webbrowser
 import gettime as tm
 import music as ms
+import secrets
 
 chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 end = "False"
@@ -12,9 +13,14 @@ def special_instructions(response):
     if "*music leo*" in response.lower():
         ms.playPlaylist(ms.playlistLeo)
     if "*music random*" in response.lower():
-        ms.playPlaylist(ms.randomPlaylist)
+        randomPlaylist = secrets.choice(ms.allPlaylists)
+        ms.playPlaylist(randomPlaylist)
     if "*music stop*" in response.lower():
         ms.stopMusic()
+    if "*volume half*" in response.lower():
+        ms.changeVolume(50)
+    if "*volume full*" in response.lower():
+        ms.changeVolume(100)
     if "*time*" in response.lower():
         tm.get_time()
 

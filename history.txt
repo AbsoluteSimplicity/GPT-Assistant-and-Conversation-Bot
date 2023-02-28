@@ -52,3 +52,113 @@ User 11:55 : stop the music
 AI 11:55 : Sure thing! *music stop*
 User 11:55 : thank you goodbye
 AI 11:55 : You're welcome. *end of conversation* Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 12:52 : play a random playlist
+AI 12:52 : Sure, let me play some music. *music random* Enjoy!
+User 12:52 : play a different random playlist
+AI 12:52 : No problem! Here's a new random playlist for you. *music random* Enjoy!
+User 12:52 : *they mutter too quietly to hear*
+AI 12:52 : I'm sorry, I didn't catch that. Can you please say it louder?
+User 12:52 : *they mutter too quietly to hear*
+AI 12:52 : I'm sorry, I didn't catch that. Can you please say it louder?
+User 12:52 : play another random playlist
+AI 12:52 : No problem! Here's another random playlist for you. *music random* Enjoy!
+User 12:52 : goodbye
+AI 12:52 : It was nice talking to you. *end of conversation* Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 12:55 : play a random playlist
+AI 12:55 : I can do that for you. *Music random*
+User 12:55 : play a random playlist
+AI 12:55 : Sure, I can do that for you. *Music random*
+User 12:55 : play another random post
+AI 12:55 : Okay, I can do that. *Music random*
+User 12:55 : play another random playlist
+AI 12:55 : Sure, I can do that for you. *Music random*
+User 12:55 : goodbye
+AI 12:55 : Goodbye. *End of conversation*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 12:58 : play a random playlist
+AI 12:58 : Sure! I'm playing a random playlist now. *music random*
+User 12:58 : *they mutter too quietly to hear*
+AI 12:58 : I'm sorry, I didn't catch that. Can you say it a bit louder please?
+User 12:58 : play another random playlist
+AI 12:58 : Sure! Playing a different random playlist now. *music random*
+User 12:58 : stop
+AI 12:58 : Okay, I'll stop the music. *music stop*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:01 : play a random playlist
+AI 13:01 : Sure, I can do that. *music random*
+User 13:01 : *they mutter too quietly to hear*
+AI 13:01 : I'm sorry, I didn't quite catch that. Could you repeat it?
+User 13:01 : goodbye
+AI 13:01 : Goodbye! *end of conversation*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:03 : play random playlist
+AI 13:03 : Sure, playing a random playlist. *music random* Have fun!
+User 13:03 : play a different random playlist
+AI 13:03 : Sure, playing a different random playlist. *music random* Enjoy!
+User 13:03 : goodbye
+AI 13:03 : Sure, *end of conversation* Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:08 : play a random playlist
+AI 13:08 : Sure, I'll play a random playlist. *music random*
+User 13:08 : set the volume to half
+AI 13:08 : Got it. *volume half*
+User 13:08 : can you raise the volume again make it full
+AI 13:08 : Certainly. *volume full*
+User 13:08 : stop
+AI 13:08 : Ok, I'll stop the music. *music stop*
+User 13:08 : goodbye
+AI 13:08 : Goodbye. *end of conversation*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:28 : play a random playlist
+AI 13:28 : Sure, here's a random playlist. *music random* Enjoy!
+User 13:28 : set the volume to half
+AI 13:28 : No problem, volume set to half. *volume half*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:29 : play a random playlist
+AI 13:29 : Music Random!
+User 13:29 : play a random playlist for me please
+AI 13:29 : Music Random! Enjoy your random playlist!
+User 13:29 : goodbye
+AI 13:29 : End of conversation. Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:29 : play random playlist
+AI 13:29 : Sure, playing a random playlist. *music random*
+User 13:29 : set the volume to half
+AI 13:29 : Sure, setting the volume to half. *volume half*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:31 : play a random playlist
+AI 13:31 : Music Random! *end of conversation* Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:31 : can you play a random playlist for me
+AI 13:31 : Sure, I can play a random playlist. *music random*
+User 13:31 : set the volume to half
+AI 13:31 : Sure, I can adjust the volume. *volume half*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:33 : play a random playlist please
+AI 13:33 : Sure! *music random*
+User 13:33 : set the volume to half
+AI 13:33 : Got it! *volume half*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:34 : play random playlist
+AI 13:34 : Sure, playing random playlist. *music random*
+User 13:34 : set the volume to half
+AI 13:34 : Of course. *volume half*
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 13:35 : set the volume to half
+AI 13:35 : *Volume half*

@@ -14,6 +14,7 @@ import parseResponse as pr
 
 openai.api_key = cnf.api
 r = sr.Recognizer()
+r.dynamic_energy_threshold = False
 
 aiType = gui.startup_gui()
 
