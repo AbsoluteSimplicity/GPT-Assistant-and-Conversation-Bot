@@ -1,0 +1,42 @@
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 20:30 : hello
+AI 20:30 : Hi there! How can I help you?
+User 20:30 : nothing goodbye
+AI 20:30 : No problem. End of conversation. Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 20:45 : hello
+AI 20:45 : Hi there, how can I help you today?
+User 20:45 : *they mutter too quietly to hear*
+AI 20:45 : I'm sorry, I didn't catch that. Could you please repeat it?
+User 20:45 : how are you today
+AI 20:45 : I'm doing great, thank you for asking. How about yourself?
+User 20:45 : goodbye
+AI 20:45 : It was nice chatting with you. *end of conversation* Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 21:28 : hello
+AI 21:28 : Hi! How can I help you today?
+User 21:28 : nothing goodbye
+AI 21:28 : No problem. *end of conversation* Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 21:30 : hello
+AI 21:30 : Hi there! How can I help you?
+User 21:30 : no thank you goodbye
+AI 21:30 : Alright, end of conversation. Have a nice day!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 21:31 : hello there
+AI 21:31 : Hi there! How can I help you?
+User 21:31 : nothing goodbye
+AI 21:31 : OK, if you need anything else just let me know. End of conversation. Goodbye!
+
+NEW CONVO STARTED WITH AI TYPE 1
+User 21:34 : hello
+AI 21:34 : Hi there! How can I help you today?
+User 21:34 : nothing goodbye
+AI 21:34 : Alright, if you need anything else please let me know. *end of conversation*. Goodbye!
