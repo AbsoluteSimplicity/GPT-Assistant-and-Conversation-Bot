@@ -39,6 +39,7 @@ aiType = input("Pick AI type, conversationalist or assistant\n")
 inputType = 1
 r.dynamic_energy_threshold = False
 
+#Check for AI type selection
 if aiType.lower() == "assistant":
     aiType = 1
     backstory = cnf.good + "\n" + cnf.instructs
@@ -50,7 +51,7 @@ else:
     time.sleep(2)
     exit()
 
-
+#Query OpenAI with prompt and the history
 def generate_response(prompt, history=[]):
     prompt_with_history = f"\n".join(history + [prompt])
     response = openai.Completion.create(
@@ -65,6 +66,8 @@ def generate_response(prompt, history=[]):
     )
     return response.choices[0].text.strip()
 
+
+#Get the voice input from the user(default method)
 def get_input():
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source, duration=0.7)
@@ -82,12 +85,14 @@ def get_input():
         user_input = "*unintelligible sounds come from human*"
     return user_input
 
+
+#Get text input for debugging/testing
 def get_input_debug():
     user_input = input("Human: ")
     return user_input
 
 
-
+#Start new convo in the history
 with open("history.txt", "a") as file:
         # Write the string to a new line in the file
         file.write("\nNEW CONVO STARTED WITH AI TYPE " + str(aiType) + "\n")
@@ -95,33 +100,43 @@ with open("history.txt", "a") as file:
 
 history = []
 while True:
+    #Check what input type is being used and call it
     if inputType == 1:
         user_input = get_input()
     elif inputType == 2:
         user_input = get_input_debug()
     
+    #Create the prompt from the user input
     if aiType == 1:
         prompt = backstory + f"Human: {user_input}\nAI:"
     elif aiType == 2:
         prompt = backstory + f"Human: {user_input}\nHuman 2:"
     
+    #Generate response and append to the history list
     response = generate_response(prompt, history)
     history.append(prompt)
     history.append(response)
     
+    #Save users input and the AI's response to the history
     with open("history.txt", "a") as file:
-        # Write the string to a new line in the file
         file.write("User " + current_time + " : " + user_input + "\n")
         file.write("AI " + current_time + " : " + response + "\n")
+    
+    #Check to see if the response contains any of the keywords to run events and remove those from the final result
     pr.special_instructions(response)
     response = pr.clear_substrings(response)
+
+    #Change CMD printing based off of the AI type
     if aiType == 1:
         print("AI: " + response + "\n")    
     elif aiType == 2:
         print("Human 2: " + response + "\n")    
+    
+    #Create the tts file, play it, then delete it
     ao.speak_response(response)
     playsound('recentoutput.mp3')
     os.remove("recentoutput.mp3")
     
+    #Check to see if the convo should end
     if "end of conversation" in response.lower():
         exit()
