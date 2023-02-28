@@ -16,6 +16,7 @@ import parseResponse as pr
 
 openai.api_key = cnf.api
 r = sr.Recognizer()
+r.dynamic_energy_threshold = False
 
 aiType = gui.startup_gui()
 
@@ -37,7 +38,7 @@ else:
 aiType = input("Pick AI type, conversationalist or assistant\n")
 '''
 inputType = 1
-r.dynamic_energy_threshold = False
+
 
 #Check for AI type selection
 if aiType.lower() == "assistant":
