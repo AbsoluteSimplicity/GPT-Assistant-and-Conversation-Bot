@@ -45,6 +45,9 @@ if aiType.lower() == "assistant":
 elif aiType.lower() == "conversationalist":
     aiType = 2
     backstory = cnf.conversation + "\n"
+elif aiType.lower() == "debatething":
+    aiType = 3
+    backstory = cnf.debatething + "\n"
 else:
     print("Invalid input type, killing program.")
     time.sleep(2)
@@ -108,7 +111,7 @@ while True:
     #Create the prompt from the user input
     if aiType == 1:
         prompt = backstory + f"Human: {user_input}\nAI:"
-    elif aiType == 2:
+    elif aiType == 2 or aiType == 3:
         prompt = backstory + f"Human: {user_input}\nHuman 2:"
     
     #Generate response and append to the history list
