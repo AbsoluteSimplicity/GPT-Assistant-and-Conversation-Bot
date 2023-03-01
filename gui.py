@@ -2,7 +2,7 @@ import easygui
 
 def startup_gui():
     # Ask for the user's favorite color
-    aiChoices = ["Assistant", "Conversationalist"]
+    aiChoices = ["Assistant", "Conversationalist", "DebateThing"]
     aiChoice = easygui.buttonbox("Choose an AI type.", choices=aiChoices)
 
     # Ask the user if they like pizza
