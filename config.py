@@ -20,5 +20,9 @@ conversation_file = open("midpersonality.txt", "r")
 conversation = conversation_file.read()
 conversation_file.close()
 
+debate_file = open("debatething.txt", "r")
+debatething = debate_file.read()
+debate_file.close()
+
 
 
